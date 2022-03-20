@@ -140,6 +140,7 @@ body {
 
     #navbar__logo {
         padding-left: 25px;
+        padding-top: 1.5rem;
     }
 
     .navbar__toggle .bar {
