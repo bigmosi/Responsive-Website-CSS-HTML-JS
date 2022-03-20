@@ -5,6 +5,10 @@
     font-family: 'Kumbh Sans', sans-serif;
 }
 
+body {
+    padding: 0;
+}
+
 .navbar {
     display: flex;
     height: 80px;
@@ -62,8 +66,8 @@
     display: flex;
     justify-content: center;
     text-decoration: none;
-    padding: 0 1rem; 
-    height: 100%;  
+    padding: 0 1rem;
+    height: 100%;
 }
 
 .navbar__btn {
@@ -300,12 +304,12 @@
     .main__container {
         display: grid;
         grid-template-columns: auto;
-        border: 1px solid red;
         align-items: center;
         justify-self: center;
         width: 100%;
         margin: 0 auto;
         height: 90vh;
+        padding: 0;
     }
 
     .main__content {
@@ -515,7 +519,7 @@
 }
 
 .social__media {
-    max-width: 100px;
+    max-width: 250px;
     width: 100%;
 }
 
@@ -567,7 +571,7 @@
     .footer__link--wrapper {
         flex-direction: column;
     }
-    
+
 }
 
 @media screen  and (max-width: 480px) {
@@ -576,6 +580,6 @@
         padding: 10px;
         width: 100%;
     }
-    
+
 }
 
